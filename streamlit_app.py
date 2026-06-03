@@ -17,4 +17,4 @@ st.markdown("""
 with open("index.html", "r", encoding="utf-8") as f:
     html_content = f.read()
 
-st.components.v1.html(html_content, height=3000, scrolling=True)
+st.components.v1.html(html_content, height=1500, scrolling=True)
